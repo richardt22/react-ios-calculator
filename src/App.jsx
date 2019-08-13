@@ -20,6 +20,7 @@ class App extends Component {
 
   handleEqual = () => {
     this.setState({ input: math.evaluate(this.state.input) });
+    
     // this.setState({ input: eval(this.state.input) });
   };
 
